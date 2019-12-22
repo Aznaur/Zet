@@ -1,0 +1,100 @@
+.services {
+  background-color: #f5f5f5;
+  text-align: center;
+  padding-top: 95px;
+  padding-bottom: 70px;
+
+  & > h2 {
+    max-width: 330px;
+    margin: 0 auto;
+    font-size: $font-size-h2;
+    font-weight: 800;
+    line-height: 22px;
+    margin-bottom: 7px;
+    letter-spacing: -0.6px;
+    color: $color-title;
+  }
+
+  & > p {
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 30px;
+    position: relative;
+    margin-bottom: 50px;
+    color: $color-title;
+
+    &::after {
+      content: "";
+      position: absolute;
+      width: 40px;
+      height: 2px;
+      bottom: -11px;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: #525961;
+    }
+  }
+}
+
+.services__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.services__item {
+  position: relative;
+  width: 270px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  padding-top: 177px;
+
+  &:last-of-type {
+    margin-right: 0;
+  }
+
+  & h3 {
+    font-size: $font-size-h3;
+    font-family: $font-montserrat, "Arial", sans-serif;
+    font-weight: 700;
+    color: $color-text;
+    letter-spacing: -0.6px;
+    margin-bottom: 15px;
+  }
+
+  & p {
+    line-height: 22px;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  &--1::before {
+    content: "";
+    background-image: url("../img/laptop3.png");
+  }
+
+  &--2::before {
+    content: "";
+    background-image: url("../img/adjust2.png");
+  }
+
+  &--3::before {
+    content: "";
+    background-image: url("../img/map7.png");
+  }
+
+  &--4::before {
+    content: "";
+    background-image: url("../img/heart19.png");
+  }
+}
