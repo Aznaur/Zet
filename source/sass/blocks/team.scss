@@ -41,4 +41,20 @@
 
 .team__list {
   display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.team__item {
+  width: 270px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  background-color: rgba(242, 242, 242, 0.75);
+  padding-bottom: 30px;
+
+  &:nth-of-type(4n) {
+    margin-right: 0;
+  }
 }

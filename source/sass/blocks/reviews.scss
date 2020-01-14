@@ -37,7 +37,7 @@
 }
 
 .reviews__wrapp {
-  width: 1170px;
+  max-width: 1170px;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -48,7 +48,6 @@
   padding: 0;
   display: flex;
   justify-content: space-between;
-  width: 3580px;
 }
 
 .reviews__item {
