@@ -1,0 +1,44 @@
+.team {
+  background-color: #ffffff;
+  text-align: center;
+  padding-top: 95px;
+  padding-bottom: 70px;
+  background-image: url('../img/bg_world.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  & > h2 {
+    max-width: 332px;
+    margin: 0 auto;
+    font-size: $font-size-h2;
+    font-weight: 800;
+    line-height: 22px;
+    margin-bottom: 7px;
+    letter-spacing: -0.6px;
+    color: #f2f2f2;
+  }
+
+  & > p {
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 30px;
+    position: relative;
+    margin-bottom: 50px;
+    color: rgba(242, 242, 242, 0.8);
+
+    &::after {
+      content: "";
+      position: absolute;
+      width: 40px;
+      height: 2px;
+      bottom: -11px;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: #525961;
+    }
+  }
+}
+
+.team__list {
+  display: flex;
+}
