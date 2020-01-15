@@ -1,6 +1,5 @@
 .person-social__item {
   width: 25px;
-  height: 25px;
   margin-right: 5px;
 
   &:nth-of-type(5n) {
@@ -15,5 +14,6 @@
   padding: 0;
   margin: 0;
   list-style: none;
+  margin-top: 20px;
 }
 
