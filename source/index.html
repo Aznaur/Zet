@@ -396,24 +396,31 @@
       <div class="wrapper-communication">
         <section class="map">
           <h2 class="visually-hidden">Адрес где мы находимся</h2>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d176920.35890584963!2d106.85238530283193!3d-6.225696621673239!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1579460773504!5m2!1sru!2sru" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-          <img src="img/maps.jpg">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d176920.35890584963!2d106.85238530283193!3d-6.225696621673239!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1579460773504!5m2!1sru!2sru" style="border:0;" allowfullscreen=""></iframe>
+          <img src="img/maps.jpg" alt="Адрес на карте">
         </section>
         <section class="contacts">
           <h2 class="visually-hidden">Наши контакты</h2>
           <form method="post" action="#" class="form">
-            <label for="field-name">Name</label>
-            <input type="text" name="name" id="field-name">
+            <div class="form__field-input">
+              <label for="field-name">Name</label>
+              <input type="text" name="name" id="field-name" required>
+            </div>
 
-            <label for="field-email">Email</label>
-            <input type="text" name="email" id="field-email">
+            <div class="form__field-input">
+              <label for="field-email">Email</label>
+              <input type="text" name="email" id="field-email" required>
+            </div>
 
-            <label for="field-phone">Phone</label>
-            <input type="text" name="phone" id="field-phone">
+            <div class="form__field-input">
+              <label for="field-phone">Phone</label>
+              <input type="text" name="phone" id="field-phone" required>
+            </div>
 
-            <label for="field-massage">Message</label>
-            <textarea name="Message" id="field-massage"></textarea>
-
+            <div class="form__field-input form__field-input--massage">
+              <label for="field-massage">Message</label>
+              <textarea name="Message" id="field-massage"></textarea>
+            </div>
             <button type="submit" class="form__btn">Submit</button>
           </form>
         </section>
