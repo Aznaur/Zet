@@ -60,4 +60,15 @@
   padding-top: 5px;
   padding-bottom: 5px;
   margin-left: auto;
+
+  &:hover {
+    background-color: #ffffff;
+    color: #000000;
+    cursor: pointer;
+  }
+
+  &:active {
+    background-color: transparent;
+    color: #f6f6f6;
+  }
 }
