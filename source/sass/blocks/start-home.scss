@@ -53,3 +53,9 @@
     color: $color-title;
   }
 }
+
+@media(max-width: $tablet-width) {
+  .start-home {
+    padding-bottom: 200px;
+  }
+}

@@ -21,4 +21,11 @@ p, h1, h2, h3 {
   margin: 0 auto;
 }
 
+@media(max-width: $tablet-width) {
+  .container {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+
 
