@@ -3,7 +3,7 @@
   text-align: center;
   padding-top: 95px;
   padding-bottom: 70px;
-  background-image: url('../img/bg_world.jpg');
+  background-image: url("../img/bg_world.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -67,7 +67,6 @@
 
 
 .team__btn {
-  border: none;
   background-color: transparent;
   color: #ffffff;
   text-transform: uppercase;

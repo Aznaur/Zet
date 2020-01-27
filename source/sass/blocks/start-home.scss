@@ -35,7 +35,6 @@
 }
 
 .start-home__btn {
-  border: none;
   background-color: transparent;
   color: #ffffff;
   text-transform: uppercase;
@@ -54,7 +53,7 @@
   }
 }
 
-@media(max-width: $tablet-width) {
+@media (max-width: $tablet-width) {
   .start-home {
     padding-bottom: 200px;
   }

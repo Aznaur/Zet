@@ -1,7 +1,7 @@
 'use strict';
 
 (function () {
-  var slides = document.querySelectorAll('.reviews__item');
+  // var slides = document.querySelectorAll('.reviews__item');
   var dots = document.querySelectorAll('.reviews__btn');
 
   for (var i = 0; i < dots.length; i++) {
@@ -20,4 +20,3 @@
   }
 
 })();
-
