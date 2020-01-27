@@ -24,3 +24,13 @@
     margin-right: 0;
   }
 }
+
+@media (max-width: $tablet-width) {
+  .customers {
+    padding-bottom: 13px;
+  }
+
+  .customers__item {
+    margin-bottom: 30px;
+  }
+}

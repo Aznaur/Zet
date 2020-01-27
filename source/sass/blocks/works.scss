@@ -56,3 +56,10 @@
     display: block;
   }
 }
+
+@media (max-width: $tablet-width) {
+  .works {
+    padding-top: 70px;
+    padding-bottom: 60px;
+  }
+}
