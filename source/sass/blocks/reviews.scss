@@ -137,3 +137,19 @@
     padding-bottom: 60px;
   }
 }
+
+@media (max-width: $mobile-width) {
+  .reviews {
+    padding-top: 45px;
+
+    & > p {
+      padding-left: 17px;
+      padding-right: 17px;
+    }
+  }
+
+  .reviews__wrapp {
+    padding-left: 17px;
+    padding-right: 17px;
+  }
+}

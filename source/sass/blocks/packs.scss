@@ -102,3 +102,9 @@
     color: $color-title;
   }
 }
+
+@media (max-width: $mobile-width) {
+  .packs__item {
+    margin-bottom: 20px;
+  }
+}

@@ -117,3 +117,23 @@
     }
   }
 }
+
+@media (max-width: $mobile-width) {
+  .team {
+    padding-top: 45px;
+    padding-bottom: 40px;
+
+    & > p {
+      padding-left: 17px;
+      padding-right: 17px;
+    }
+  }
+
+  .team__list {
+    margin-bottom: 40px;
+  }
+
+  .team__item {
+    margin-right: 0;
+  }
+}
