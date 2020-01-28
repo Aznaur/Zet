@@ -36,3 +36,10 @@
     padding-top: 20px;
   }
 }
+
+@media (max-width: $mobile-width) {
+  .page-header {
+    padding-top: 17px;
+    margin-bottom: 160px;
+  }
+}

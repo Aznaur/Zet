@@ -58,3 +58,17 @@
     padding-bottom: 200px;
   }
 }
+
+@media (max-width: $mobile-width) {
+  .start-home {
+    padding-bottom: 80px;
+  }
+
+  .start-home__desc {
+    & p {
+      &:first-of-type {
+        font-size: 40px;
+      }
+    }
+  }
+}
