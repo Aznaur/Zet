@@ -72,3 +72,24 @@
     color: #f6f6f6;
   }
 }
+
+@media (max-width: $mobile-width) {
+  .form__field-input {
+    margin-bottom: 15px;
+
+    & input {
+      width: 100%;
+    }
+  }
+
+  .form__field-input--massage {
+    & textarea {
+      width: 100%;
+    }
+  }
+
+  .form__btn {
+    margin-left: 0;
+  }
+
+}

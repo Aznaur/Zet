@@ -15,5 +15,15 @@
 @media (max-width: $tablet-width) {
   .contacts {
     width: 100%;
+    padding-top: 45px;
+    padding-bottom: 40px;
+  }
+}
+
+@media (max-width: $mobile-width) {
+  .contacts {
+    width: 100%;
+    padding-right: 17px;
+    padding-left: 17px;
   }
 }
