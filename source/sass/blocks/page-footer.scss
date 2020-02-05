@@ -39,6 +39,8 @@
   display: flex;
 
   & li {
+    width: 35px;
+    height: 35px;
     margin-right: 9px;
 
     &:last-of-type {
@@ -49,5 +51,35 @@
   & a {
     text-decoration: none;
     display: flex;
+  }
+}
+
+@media (max-width: $mobile-width) {
+  .page-footer {
+    padding-top: 45px;
+    padding-bottom: 40px;
+  }
+
+  .page-footer__wrapper {
+    flex-direction: column;
+
+    & > p:last-of-type {
+      margin-left: 0;
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+
+    & > p:first-of-type {
+      order: 1;
+    }
+  }
+
+  .page-footer__logo {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .page-footer__social {
+    margin-bottom: 20px;
   }
 }
