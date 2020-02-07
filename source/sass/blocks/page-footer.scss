@@ -26,6 +26,7 @@
   width: 84px;
   height: 31px;
   margin-right: 25px;
+  flex-shrink: 0;
 
   & img {
     display: block;

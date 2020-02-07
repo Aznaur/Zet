@@ -5,6 +5,7 @@
   padding-bottom: 70px;
 
   & > h2 {
+    word-break: break-word;
     max-width: 330px;
     margin: 0 auto;
     font-size: $font-size-h2;

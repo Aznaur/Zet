@@ -8,6 +8,7 @@
   background-size: cover;
 
   & > h2 {
+    word-break: break-word;
     max-width: 332px;
     margin: 0 auto;
     font-size: $font-size-h2;
@@ -88,6 +89,8 @@
 
 .team__data {
   padding-top: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
 
   & p {
     font-family: $font-montserrat, "Arial", sans-serif;
