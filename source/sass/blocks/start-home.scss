@@ -5,6 +5,10 @@
   background-position: top center;
   background-size: cover;
   padding-bottom: 300px;
+
+  @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+    background-image: url("../img/overlay@2x.jpg");
+  }
 }
 
 .start-home__desc {

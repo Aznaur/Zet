@@ -7,6 +7,10 @@
   background-repeat: no-repeat;
   background-size: cover;
 
+  @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+    background-image: url("../img/rectangle@2x.jpg");
+  }
+
   & > h2 {
     word-break: break-word;
     max-width: 332px;
