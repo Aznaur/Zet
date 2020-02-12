@@ -82,22 +82,26 @@
 
   &--1::before {
     content: "";
-    background-image: url("../img/laptop3.png");
+    background-image: url("../img/spritesheet.png");
+    background-position: -5px -135px;
   }
 
   &--2::before {
     content: "";
-    background-image: url("../img/adjust2.png");
+    background-image: url("../img/spritesheet.png");
+    background-position: -5px -5px;
   }
 
   &--3::before {
     content: "";
-    background-image: url("../img/map7.png");
+    background-image: url("../img/spritesheet.png");
+    background-position: -135px -135px;
   }
 
   &--4::before {
     content: "";
-    background-image: url("../img/heart19.png");
+    background-image: url("../img/spritesheet.png");
+    background-position: -135px -5px;
   }
 }
 

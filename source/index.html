@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Zet</title>
-    <link href="css/style.css" rel="stylesheet">
+    <link rel="preload" href="css/style.min.css" as="style" onload="this.rel='stylesheet'">
     <link rel="icon" type="image/png" sizes="180x180" href="img/favicon.png">
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon_16x16.png">
   </head>
@@ -61,77 +61,137 @@
         <ul class="works__list">
           <li class="works__item">
             <a href="#">
-              <img alt="boommy-shop" src="img/worck-1.jpg">
+              <picture>
+                <source type="image/webp" srcset="img/worck-1.webp">
+
+                <img alt="boommy-shop" src="img/worck-1.jpg">
+              </picture>
             </a>
           </li>
           <li class="works__item">
             <a href="#">
-              <img alt="SEO-template" src="img/worck-2.jpg">
+              <picture>
+                <source type="image/webp" srcset="img/worck-2.webp">
+
+                <img alt="SEO-template" src="img/worck-2.jpg">
+              </picture>
             </a>
           </li>
           <li class="works__item">
             <a href="#">
-              <img alt="dribbble_shottie" src="img/worck-3.jpg">
+              <picture>
+                <source type="image/webp" srcset="img/worck-3.webp">
+
+                <img alt="dribbble_shottie" src="img/worck-3.jpg">
+              </picture>
             </a>
           </li>
           <li class="works__item">
             <a href="#">
-              <img alt="mockup" src="img/worck-4.jpg">
+              <picture>
+                <source type="image/webp" srcset="img/worck-4.webp">
+
+                <img alt="mockup" src="img/worck-4.jpg">
+              </picture>
             </a>
           </li>
           <li class="works__item">
             <a href="#">
-              <img alt="ss-drib" src="img/worck-5.jpg">
+              <picture>
+                <source type="image/webp" srcset="img/worck-5.webp">
+
+                <img alt="ss-drib" src="img/worck-5.jpg">
+              </picture>
             </a>
           </li>
           <li class="works__item">
             <a href="#">
-              <img alt="cool" src="img/worck-6.jpg">
+              <picture>
+                <source type="image/webp" srcset="img/worck-6.webp">
+
+                <img alt="cool" src="img/worck-6.jpg">
+              </picture>
             </a>
           </li>
           <li class="works__item">
             <a href="#">
-              <img alt="food" src="img/worck-7.jpg">
+              <picture>
+                <source type="image/webp" srcset="img/worck-7.webp">
+
+                <img alt="food" src="img/worck-7.jpg">
+              </picture>
             </a>
           </li>
           <li class="works__item">
             <a href="#">
-              <img alt="shot" src="img/worck-8.jpg">
+              <picture>
+                <source type="image/webp" srcset="img/worck-8.webp">
+
+                <img alt="shot" src="img/worck-8.jpg">
+              </picture>
             </a>
           </li>
           <li class="works__item">
             <a href="#">
-              <img alt="fitness" src="img/worck-9.jpg">
+              <picture>
+                <source type="image/webp" srcset="img/worck-9.webp">
+
+                <img alt="fitness" src="img/worck-9.jpg">
+              </picture>
             </a>
           </li>
           <li class="works__item">
             <a href="#">
-              <img alt="call centre" src="img/worck-10.jpg">
+              <picture>
+                <source type="image/webp" srcset="img/worck-10.webp">
+
+                <img alt="call centre" src="img/worck-10.jpg">
+              </picture>
             </a>
           </li>
           <li class="works__item">
             <a href="#">
-              <img alt="landing-page" src="img/worck-11.jpg">
+              <picture>
+                <source type="image/webp" srcset="img/worck-11.webp">
+
+                <img alt="landing-page" src="img/worck-11.jpg">
+              </picture>
             </a>
           </li>
           <li class="works__item">
             <a href="#">
-              <img alt="newhome-shot" src="img/worck-12.jpg">
+              <picture>
+                <source type="image/webp" srcset="img/worck-12.webp">
+
+                <img alt="newhome-shot" src="img/worck-12.jpg">
+              </picture>
             </a>
           </li>
           <li class="works__item">
             <a href="#">
-              <img alt="coil-wip" src="img/worck-13.jpg">
+              <picture>
+                <source type="image/webp" srcset="img/worck-12.webp">
+
+                <img alt="coil-wip" src="img/worck-13.jpg">
+              </picture>
             </a>
           </li>
           <li class="works__item">
             <a href="#">
-              <img alt="lego" src="img/worck-14.jpg">
+              <picture>
+                <source type="image/webp" srcset="img/worck-14.webp">
+
+                <img alt="lego" src="img/worck-14.jpg">
+              </picture>
             </a>
           </li>
           <li class="works__item">
             <a href="#">
-              <img alt="automatic grammar" src="img/worck-15.jpg">
+              <picture>
+                <source type="image/webp" srcset="img/worck-15.webp">
+
+                <img alt="automatic grammar" src="img/worck-15.jpg">
+              </picture>
             </a>
           </li>
         </ul>
@@ -144,7 +204,11 @@
             <li class="reviews__item reviews__item--block">
               <p> Bebed pupu warni sangsam ngundang ajang, gujeng sirah lair menda bebucal benang; lek-lekan? Madeg pendhet lenggah, "nanem dipetak dhuwung, dipun awis bokong ayam. gendhis angsal Jawa Ipsum nangis rumput wilujeng unyeng-unyeng; pados gujeng benter andhap lisa Leres, lisah, ulem-ulem nedhi gesang manah cangkem: nem aken benter bebucal baita dangu</p>
               <div class="reviews__author">
-                <img src="img/adam.png" alt="Фото клиента">
+                <picture>
+                  <source type="image/webp" srcset="img/adam.webp">
+
+                  <img src="img/adam.png" alt="Фото клиента">
+                </picture>
                 <p>Vasily Nganu</p>
                 <p>Dropbox Senior 	Developer</p>
               </div>
@@ -152,7 +216,11 @@
             <li class="reviews__item">
               <p> Bebed pupu warni sangsam ngundang ajang, gujeng sirah lair menda bebucal benang; lek-lekan? Madeg pendhet lenggah, "nanem dipetak dhuwung, dipun awis bokong ayam. gendhis angsal Jawa Ipsum nangis rumput wilujeng unyeng-unyeng; pados gujeng benter andhap lisa Leres, lisah, ulem-ulem nedhi gesang manah cangkem: nem aken benter bebucal baita dangu</p>
               <div class="reviews__author">
-                <img src="img/adam.png" alt="Фото клиента">
+                <picture>
+                  <source type="image/webp" srcset="img/adam.webp">
+
+                  <img src="img/adam.png" alt="Фото клиента">
+                </picture>
                 <p>Vasily Nganu</p>
                 <p>Dropbox Senior 	Developer</p>
               </div>
@@ -160,7 +228,11 @@
             <li class="reviews__item">
               <p> Bebed pupu warni sangsam ngundang ajang, gujeng sirah lair menda bebucal benang; lek-lekan? Madeg pendhet lenggah, "nanem dipetak dhuwung, dipun awis bokong ayam. gendhis angsal Jawa Ipsum nangis rumput wilujeng unyeng-unyeng; pados gujeng benter andhap lisa Leres, lisah, ulem-ulem nedhi gesang manah cangkem: nem aken benter bebucal baita dangu</p>
               <div class="reviews__author">
-                <img src="img/adam.png" alt="Фото клиента">
+                <picture>
+                  <source type="image/webp" srcset="img/adam.webp">
+
+                  <img src="img/adam.png" alt="Фото клиента">
+                </picture>
                 <p>Vasily Nganu</p>
                 <p>Dropbox Senior 	Developer</p>
               </div>
@@ -179,7 +251,11 @@
         <div class="container">
           <ul class="team__list">
             <li class="team__item">
-              <img src="img/salazar@1x.jpg" alt="Фото сотрудника">
+              <picture>
+                <source type="image/webp" srcset="img/salazar@1x.webp">
+                <img src="img/salazar@1x.jpg" alt="Фото сотрудника">
+              </picture>
+
               <div class="team__data">
                 <p>Salazar Slytherin</p>
                 <p>CEO</p>
@@ -213,7 +289,11 @@
               </div>
             </li>
             <li class="team__item">
-              <img src="img/gryffindor@1x.jpg" alt="Фото сотрудника">
+              <picture>
+                <source type="image/webp" srcset="img/gryffindor@1x.webp">
+                <img src="img/gryffindor@1x.jpg" alt="Фото сотрудника">
+              </picture>
+
               <div class="team__data">
                 <p>GodricT Gryffindor</p>
                 <p>Lead Developer</p>
@@ -247,7 +327,11 @@
               </div>
             </li>
             <li class="team__item">
-              <img src="img/ravenclaw@1x.jpg" alt="Фото сотрудника">
+              <picture>
+                <source type="image/webp" srcset="img/ravenclaw@1x.webp">
+                <img src="img/ravenclaw@1x.jpg" alt="Фото сотрудника">
+              </picture>
+
               <div class="team__data">
                 <p>Rowena Ravenclaw</p>
                 <p>Lead Designer</p>
@@ -281,7 +365,10 @@
               </div>
             </li>
             <li class="team__item">
-              <img src="img/hufflepuff@1x.jpg" alt="Фото сотрудника">
+              <picture>
+                <source type="image/webp" srcset="img/hufflepuff@1x.webp">
+                <img src="img/hufflepuff@1x.jpg" alt="Фото сотрудника">
+              </picture>
               <div class="team__data">
                 <p>Helga Hufflepuff</p>
                 <p>Marketing</p>
@@ -396,8 +483,12 @@
       <div class="wrapper-communication">
         <section class="map">
           <h2 class="visually-hidden">Адрес где мы находимся</h2>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d176920.35890584963!2d106.85238530283193!3d-6.225696621673239!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1579460773504!5m2!1sru!2sru" style="border:0;" allowfullscreen=""></iframe>
-          <img src="img/maps.jpg" alt="Адрес на карте">
+          <picture>
+            <source type="image/webp" srcset="img/maps.webp">
+
+            <img src="img/maps.jpg" alt="Адрес на карте">
+          </picture>
+
         </section>
         <section class="contacts">
           <h2 class="visually-hidden">Наши контакты</h2>
